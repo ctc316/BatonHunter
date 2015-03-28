@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: scroll;
+}
+
+#videocontainer
+{
+    margin-top:1em;
+    margin-bottom: 1em;
+    background-color: black;
+
+}
+
+#videolistcontainer
+{
+    margin-top:1%;
+    margin-bottom: 1%;
+
+}
+
+#videolistcontainer .row
+{
+    
+}
+
+.videolistitem
+{
+    margin-bottom: 1em;
+}
+
+.videoicon
+{
+    display: inline-block;
+}
+
+.videotitle
+{
+    font-size: 18px;
+    color: white;
+}
+
+.videodescription
+{
+    font-size: 16px;
+    color: white;
+}
