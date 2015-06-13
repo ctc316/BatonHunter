@@ -1,0 +1,11 @@
+#bottomNaviBar{
+	height: 10%;
+}
+
+#bottomNaviBar > ul {
+	
+}
+
+#bottomNaviBar > li {
+	display: inline;
+}

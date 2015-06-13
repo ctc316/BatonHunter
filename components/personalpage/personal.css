@@ -1,5 +1,11 @@
 body {
 	background-color: #fff;
+	height: 100%;
+	position: absolute;
+}
+
+.container-fluid{
+	height: 90%;
 }
 
 .no-bottom-margin {
@@ -43,5 +49,10 @@ body {
 .personal-btn-mobile {
   background-color: red;
   color: white;
+}
+
+#radar-chart {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 

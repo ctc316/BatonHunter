@@ -12,7 +12,7 @@ var Homepage = (function() {
 
 			//2.get profile from backend server
 			profile_data.getProfileFromServer(response.email, function(profile) {
-
+				profile_data.setEmail(response.email);
 				if (profile.getStrength() && profile.getStrength().length)
 				{
 					if (true) {
